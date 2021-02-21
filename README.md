@@ -1,1 +1,1 @@
-# advanced-javaScript
+# Advanced-JavaScript
