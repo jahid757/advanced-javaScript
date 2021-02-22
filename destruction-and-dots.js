@@ -58,4 +58,9 @@ const y = 30;
 // const number = {x:x,y:y}
 
 const number = {x,y}
-console.log(number);
+// console.log(number);
+
+// new array creat using three dots
+
+const newNumbers = [...numbers , 57];
+console.log(newNumbers);
