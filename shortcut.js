@@ -59,4 +59,11 @@ const data = JSON.parse(json);
 localStorage.setItem('userId', 1791)
 
 const getItem = localStorage.getItem('userId')
-console.log(getItem);
+// console.log(getItem);
+
+const localStorageObject = localStorage.setItem("Person", JSON.stringify(person)) ;
+const localStorageGetItem = localStorage.getItem('Person');
+const personParsed = JSON.parse(localStorageGetItem);
+console.log(JSON.parse(localStorageGetItem));
+
+console.log(Object.values(personParsed[0]));
